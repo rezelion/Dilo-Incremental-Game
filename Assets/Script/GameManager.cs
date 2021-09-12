@@ -19,7 +19,7 @@ public class GameManager : MonoBehaviour
     }
 
     [Range(0f, 1f)]
-    public float AutoCollectPercentage = 0.1f;
+    
     public ResourceConfig[] ResourcesConfigs;
     public Sprite[] ResourcesSprites;
     public Transform ResourcesParent;
@@ -32,6 +32,7 @@ public class GameManager : MonoBehaviour
     private List<TapText> _tapTextPool = new List<TapText>();
     private float _collectSecond;
     public double _totalGold; //private
+    public float AutoCollectPercentage = 0.1f;
     public AudioSource coinFX;
     private void Start()
 

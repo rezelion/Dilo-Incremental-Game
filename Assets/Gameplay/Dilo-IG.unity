@@ -734,7 +734,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 0}
+  m_BackGroundColor: {r: 0.1745283, g: 0.6981132, b: 0.27457207, a: 0}
   m_projectionMatrixMode: 1
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
@@ -1008,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3c7a768cd5b844543a94ee10a7b68e22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  AutoCollectPercentage: 0.1
   ResourcesConfigs:
   - Name: Click
     UnlockCost: 0
@@ -1016,7 +1017,7 @@ MonoBehaviour:
   - Name: Pegawai Magang
     UnlockCost: 100
     UpgradeCost: 100
-    Output: 200
+    Output: 100
   - Name: Pegawai Tetap
     UnlockCost: 10000
     UpgradeCost: 10000
@@ -1036,7 +1037,6 @@ MonoBehaviour:
   GoldInfo: {fileID: 1763437901}
   AutoCollectInfo: {fileID: 2005688204}
   _totalGold: 0
-  AutoCollectPercentage: 0.1
   coinFX: {fileID: 177630056}
 --- !u!4 &1073621043
 Transform:
@@ -1475,15 +1475,15 @@ MonoBehaviour:
   _popUpText: {fileID: 1788447034}
   _popUpShowDuration: 3
   _achievementList:
-  - Title: Unlock Magang
+  - Title: Pegawai Magang Terbuka !
     Type: 0
     Value: Pegawai Magang
     IsUnlocked: 0
-  - Title: Unlock Tetap
+  - Title: Pegawai Tetap Terbuka !
     Type: 0
     Value: Pegawai Tetap
     IsUnlocked: 0
-  - Title: Unlock Manager
+  - Title: Manager Terbuka !
     Type: 0
     Value: Manager
     IsUnlocked: 0
@@ -1620,7 +1620,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfd8276fdc73719409568d07e32b36da, type: 3}
     m_FontSize: 35
     m_FontStyle: 0
     m_BestFit: 0
@@ -1717,7 +1717,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfd8276fdc73719409568d07e32b36da, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -1796,7 +1796,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfd8276fdc73719409568d07e32b36da, type: 3}
     m_FontSize: 24
     m_FontStyle: 0
     m_BestFit: 0
@@ -2054,7 +2054,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfd8276fdc73719409568d07e32b36da, type: 3}
     m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
@@ -2133,7 +2133,7 @@ MonoBehaviour:
     m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
       Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_Font: {fileID: 12800000, guid: dfd8276fdc73719409568d07e32b36da, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
